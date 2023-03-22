@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:100,200,300,400,500,600,700,800,900');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.section{
+    background-image: url("../teamimages/mainbg.jpg");
+    width: 100%;
+    height: auto;
+    padding: 60px 30px;
+    font-size: 2em;
+    color: yellowgreen;
+    text-shadow: 2px 2px 2px black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    margin-left: 50px;
+}
+.container{ 
+    padding: 45px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 28px;
+    font-weight: 300;
+    font-size: 2em;
+
+}
+
+.crdcoll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lib { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.creative {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card {
+    margin: 30px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+.card9 {
+    background: url("./images1/arnav.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.card2 {
+    background: url("./images1/Avii2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.card3 {
+    background: url("./images1/rajeev.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.card4 {
+    background: url("./images1/meenu.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.card5 {
+    background: url("./images1/samiksha.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content {
+    width: 100%;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+#card:hover{
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 16px;
+}
+a {
+
+    padding: 12px;
+    text-decoration: none;
+    color: yellowgreen;
+    border-radius: 20px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.container2 a{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    border: 1px solid #040a29;
+    background: #000000dd;
+    margin: 10px 57px;
+    border-radius: 10px;
+}
+.container2 a:hover{
+    transform: scale(1.1);
+}
+
+
