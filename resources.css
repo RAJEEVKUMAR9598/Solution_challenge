@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.resource{
+    background-color: black;
+    display: flex;
+    font-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: larger;
+    padding: 30px;
+}
